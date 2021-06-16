@@ -13,31 +13,38 @@
     /* main section ends */
     /* nav-secrion starts */
     #nav-bar{
-        float:right;
-        padding: 0 1rem 0 0;
+        float:left;
+        padding: 0 ;
+    }
+    #nav-bar li a:link,
+    #nav-bar li a:visited{
+      color: white;
+      text-decoration: none;
+      font-size: 0.8rem;
     }
     /* nav section ends */
     /* headersection starts */
     blockquote{
-        font-size: 1.1rem;
+        padding-top:1rem;
+        font-size: 0.9rem;
     }
     cite{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #header{
-        line-height: 1.5rem;
+        line-height: 1.2rem;
     }
 
     #header h1{
-        padding: 0.6rem;
+        padding: 0.4rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         word-spacing: 0.5rem;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     #header p{
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .download-resume{
         margin-top: 2rem;
@@ -65,16 +72,16 @@
     h2{
         margin-bottom: 0.7rem;
         margin-top: 0.7rem;
-        font-size:1.1rem;
+        font-size:1rem;
     }
     .experience-section p{
         line-height: 1.1rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     ul li{
-        margin: 1rem 0 1rem 2rem;
+        margin: 1rem 0 1rem 1.5rem;
         line-height: 1.1rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
     /* experience section ends */
     /* project section starts */
@@ -84,6 +91,9 @@
     }
     /* project section ends */
 /* skills section starts */
+  #skills{
+      padding-bottom: 6rem;
+  }
   .skills{
   margin: 1rem 1rem 1rem 1rem;
   padding: 0.5rem; 
@@ -115,19 +125,19 @@
 /* tools section ends */
 /* contact section starts */
 .contact-class{
-    margin: 1rem;
+    margin: 0.7rem;
     display: flex;
     justify-content: center;
     border: 1px solid black;
     padding: 1rem;
 }
 label{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 input[type=submit]{
     /* margin: 3rem; */
     margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     padding: 0.7rem 3rem;
     background-color: #DA723C;
     font-size: 0.9rem;
@@ -182,14 +192,14 @@ textarea{
     margin: 0.7rem 0;
     outline: none;
     padding: 0.9rem;
-    height: 10rem;
+    height: 8rem;
   /*   border-radius: 4rem; */
 }
 textarea:hover{
     width: 100%;
     border: 0.15rem solid rgba(245, 191, 15, 0.5);
   /*   border-radius: 4rem; */
-    height: 10rem;
+    height: 8rem;
 }
 /* contact section ends */
 /* footer section starts */
@@ -197,7 +207,7 @@ footer{
     text-align: center;
     /* font-size: 2rem; */
   /*   margin: 2rem; */
-    padding: 1rem;
+    padding: 0.5rem;
 }
 footer p{
     color: white;
@@ -205,8 +215,8 @@ footer p{
     padding-bottom: 1rem;
 }
 footer a i{
-    font-size: 1.5rem;
-    margin: 0rem 1rem 1rem 1rem;
+    font-size: 1.2rem;
+    margin: 0rem 0.5rem 1rem 0.5rem;
     color: white;
 }
 /* footer section ends */
